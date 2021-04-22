@@ -52,9 +52,6 @@ def scrape():
     df=df.rename(columns={0: "Description", 1: "Mars_Values"})
     # add table content into a list of dictionaries
     mars_facts_table=df.to_dict('records')
-    # convert to html
-    df.to_html("mars_facts_table.html",index=False)
-    
 
     #----------------------(Mars Hemisphere)---------------------------------------------
     # URL of page to be scraped 
@@ -84,8 +81,6 @@ def scrape():
     # organize all scraped data into one dictionary
     mars_data={"news_title":news_title, "news_p":news_p,"featured_image_url":featured_image_url,"mars_facts_table":mars_facts_table,
                 "hemisphere_image_urls":hemisphere_image_urls}
-    # print the result
-    print(mars_data)
 
     browser.quit()
 
