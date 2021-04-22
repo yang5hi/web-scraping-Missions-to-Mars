@@ -6,9 +6,9 @@
 Initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
 * Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text.
-* Visit the url for JPL Featured Space Image [here](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars) and find the image url for the current Featured Mars Image.
-* Visit the Mars Facts webpage [here](https://space-facts.com/mars/) and scrape the table containing facts about the planet including Diameter, Mass, etc.
-* Visit the USGS Astrogeology site [here](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
+* Visit the url for JPL Featured Space Image [website](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars) and find the image url for the current Featured Mars Image.
+* Visit the [Mars Facts webpage](https://space-facts.com/mars/) and scrape the table containing facts about the planet including Diameter, Mass, etc.
+* Visit the [USGS Astrogeology site](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
 
 ## Step 2 - MongoDB and Flask Application
 
