@@ -19,6 +19,6 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
 ![overview.png](Missions_to_Mars/Images/overview.png)
 
-##Copyright
+## Copyright
 
 Trilogy Education Services © 2020. All Rights Reserved.
